@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 16, 2016, 8:34:46 PM
+    Author     : Swati
+*/
+
+
+.Album-bot-right-Tracks_ss, .Artist-bot-right-Tracks_ss {
+	width:auto;
+	height:600px;
+	margin-left:1%; 
+        overflow-y:scroll; 
+        position:absolute;
+}
+
+
+
+.index_imgss img{
+        width:98%;
+        height:98%;
+	border-bottom:3px solid #1baf5d;
+} 
+.content_topss{
+	background:#fff;
+	padding:13px 0 5px;                                                     
+        
+}
+
+.banner1 {
+    min-height: 0.3px;
+    text-align: center;
+    padding-top: 0.3em;
+    background: url("../images/banner.jpg") 50% 0% / cover no-repeat;
+}
+
+
+.textox {
+    width: 400px;
+    height: 38px;
+    font-size: 14px;
+    box-shadow: rgb(156, 156, 156) 0px 1px 2px 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(71, 71, 71);
+    text-align: left;
+    float : left;
+    border: 0.3px solid rgb(209, 209, 209);
+    padding: 1px 10px 1px 9px;
+    border-radius: 20px;
+    outline: none;
+    margin-left: 150px;
+    
+}
+
+
+.Button {
+    background-color: rgb(233, 76, 56);
+   
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+    text-shadow: rgb(233, 76, 56) 0px 1px 0px;
+    border-radius: 28px;
+    border: 1px solid rgb(233, 76, 56);
+    padding: 9px 20px;
+    margin-left: 10px;
+    
+}
+
+
+.content_dropdown2 select {
+    width: auto;
+    color: rgb(150, 166, 167);
+    font-size: 0.8125em;
+    outline: none;
+    border: 1px solid rgb(150, 166, 167);
+    padding: 8px 0px 8px 20px;
+    border-radius: 50px;
+    background: none;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.content_topss {
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    padding: 13px 0px 5px;
+    border-bottom: 1px solid rgb(230, 229, 229);
+    list-style: none;
+}
+.content_topss ul{
+    display: inline-block;
+}
+
+
+
+
+/*Album page*/
+
+.Album-bot-right-Tracks-top-logo_ss, .Artist-bot-right-Tracks-top-logo_ss {
+	text-align:center;
+	padding:8px 8px; 
+	background:#e94e38;
+	width:10%;
+	border-radius:25px;
+	color: white;
+        font-size:25px;
+	font-weight:600;
+}
+
+.Album-bot_ss, .Artist-bot_ss{
+	margin:2%;
+	padding:1%;
+	height:90%;
+}
+.Album-bot-left_ss, .Album-bot-right_ss, .Artist-bot-left_ss, .Artist-bot-right_ss {
+    float:left;
+	width:48%;
+	height:100%; 
+}
+
+.Album-img_ss img, .Artist-img_ss img{
+	width:460px;
+	height:300px;
+	margin:0;
+	padding:0;
+}
+
+.Album-info_ss, .Artist-info_ss{
+	padding:3% 3%;
+	background-color: #e94e38;;
+	width:460px;
+	height:400px;
+        margin-bottom: 100px
+}
+.Album-info_ss p,.Album-info_ss ul, .Artist-info_ss p, .Artist-info_ss ul{
+	display: block;
+	word-break:break-all;
+	font-size:20px;
+	color:white;
+	font-weight:500;
+}
+.Album-info_ss h1, .Artist-info_ss h1{
+	display: block;
+	word-break:break-all;
+	font-size:30px;
+	color:white;
+	font-weight:500;
+        
+}
+.Album-upper-roman_ss, .Artist-upper-roman_ss {
+	list-style-type:decimal;
+	margin-left:5%;
+}
+
+
+.Album-bot-right_ss, .Artist-bot-right_ss {
+	margin-left:2%;
+}
+
+.Album-bot-right-Tracks-top_ss, .Artist-bot-right-Tracks-top_ss {
+	margin: 2% 2%;
+}
+.Album-bot-right-Tracks-top-logo_ss, .Artist-bot-right-Tracks-top-logo_ss {
+	text-align:center;
+	padding:8px 8px; 
+	background:#e94e38;
+	width:98%;
+	border-radius:25px;
+	color: white;
+    font-size:25px;
+	font-weight:600;
+}
